@@ -6,9 +6,9 @@ driver.maximize_window()
 # 打开默认是账号密码登录
 driver.get('https://login.taobao.com/member/login.jhtml')
 sleep(1)
-driver.find_element_by_id('fm-login-id').send_keys('carol900913:苏永永')
+driver.find_element_by_id('fm-login-id').send_keys('username')
 sleep(1)
-driver.find_element_by_id('fm-login-password').send_keys('syy123456')
+driver.find_element_by_id('fm-login-password').send_keys('password')
 sleep(1)
 driver.find_element_by_class_name('fm-button').click()
 
